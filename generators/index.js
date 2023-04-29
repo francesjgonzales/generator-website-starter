@@ -2,7 +2,7 @@ const Generator = require('yeoman-generator');
 
 module.exports = class extends Generator {
     welcome() {
-        this.log('Welcome to the Gulp and Sass Generator!');
+        this.log('Successful download');
     }
 
     writing() {
@@ -26,7 +26,7 @@ module.exports = class extends Generator {
             this.templatePath('package-lock.json'),
             this.destinationPath('package-lock.json')
         );
-        this.fs.copy(this.templatePath('app'), this.destinationPath('app'));
+        this.fs.copy(this.templatePath('app/templates'), this.destinationPath('app/templates'));
     }
 
     end() {
