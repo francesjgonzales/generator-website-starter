@@ -1,0 +1,16 @@
+html {
+  box-sizing: border-box;
+  font-size: 100%;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  padding: 20px;
+  background-color: lavender;
+  color: #273746;
+  font-family: 'Segoe UI','Inter', sans-serif;
+  line-height: 1.3;
+}

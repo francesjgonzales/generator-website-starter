@@ -1,0 +1,3 @@
+[submodule "generators/app/website-starter"]
+	path = generators/app/website-starter
+	url = https://github.com/francesjgonzales/website-starter
