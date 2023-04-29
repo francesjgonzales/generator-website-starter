@@ -2,7 +2,7 @@
 
 This project is about learning how to build an npm package file using website starter files created in my [previous repo](https://github.com/francesjgonzales/website-starter) and generate it using [yeoman](https://yeoman.io/) tool
 
-# Steps
+### Steps
 
 1. Create a new repository in github
 
@@ -33,18 +33,18 @@ This project is about learning how to build an npm package file using website st
 7. Login to your npm account. Sign up [here](https://www.npmjs.com/signup) if you don't have one yet.
    > Note: email address used in sign up is public knowledge.
 
-# Error encountered
+### Error encountered
 
 ```
 npm notice Account creation via legacy auth is unavailable. Please set your auth-type to "web" or visit https://www.npmjs.com/signup to create an account.
 npm ERR! code E403
-npm ERR! 403 403 Forbidden - PUT https://registry.npmjs.org/-/user/org.couchdb.user:gfrancesjane
+npm ERR! 403 403 Forbidden - PUT https://registry.npmjs.org/-/user/org.couchdb.user:NAME
 npm ERR! 403 In most cases, you or one of your dependencies are requesting
 npm ERR! 403 a package version that is forbidden by your security policy, or
 npm ERR! 403 on a server you do not have access to.
 
 npm ERR! A complete log of this run can be found in:
-npm ERR!     /Users/francesjanegonzales/.npm/_logs/2023-04-29T12_54_51_911Z-debug-0.log
+npm ERR!     /Users/NAME/.npm/_logs/2023-04-29T12_54_51_911Z-debug-0.log
 ```
 
 It somehow resolved by doing the following:
@@ -53,7 +53,7 @@ It somehow resolved by doing the following:
 - Linked my github account in my npm account
 - I typed the wrong username
 
-# Update package files
+### Update package files
 
 1. Push and commit files to repository
 
@@ -65,7 +65,7 @@ It somehow resolved by doing the following:
 
 4. Check udpated files in your npm account
 
-# Credits
+### Credits
 
 - I learned the tutorial from [Coder Coder](https://www.youtube.com/watch?v=NgaV7503dTk&t=420s)
 - [How to NPM Link to a local version of your dependency](https://medium.com/@AidThompsin/how-to-npm-link-to-a-local-version-of-your-dependency-84e82126667a)
