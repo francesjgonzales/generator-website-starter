@@ -2,7 +2,7 @@ const Generator = require('yeoman-generator');
 
 module.exports = class extends Generator {
     welcome() {
-        this.log('Successful download');
+        this.log('Welcome to website starter!');
     }
 
     writing() {
