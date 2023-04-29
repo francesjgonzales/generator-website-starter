@@ -58,7 +58,7 @@ It somehow resolved by doing the following:
 1. Push and commit files to repository
 
 2. Update yeoman version number in _package.json_
-   `npm version 1.0.0`
+   `npm version 1.1.1`
 
 3. Update npm package files
    `npm publish`
