@@ -15,6 +15,7 @@
     "yeoman-generator",
     "website-starter",
     "gulp",
+    "gulp-imagemin",
     "web-design-starter",
     "SASS",
     "beginner-website-starter",

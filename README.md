@@ -1,17 +1,19 @@
 # generator-website-starter
 
-This project is about learning how to build an npm package file using website starter files created in my [previous repo](https://github.com/francesjgonzales/website-starter) and generate it using [yeoman](https://yeoman.io/) tool
+This project is about learning how to build an npm package file using website starter files created in my [previous repo](https://github.com/francesjgonzales/website-starter) and generate it using [yeoman](https://yeoman.io/) tool.
 
-### How to use generator-website-starter
+### How to use this package
 
-1. Install **yeoman** globally
+If you want to use this generator, below are the steps.
+
+1. Install **yeoman** globally if you haven't installed it before
    `npm install -g yo`
 
-2. Install your **created generator** globally
-   `npm install -g generator-name`
+2. Install your **created generator** globally if you haven't installed it before
+   `npm install -g generator-website-starter`
 
-3. Install the package file using Yeoman
-   `yo generator-name`
+3. Install the package file using Yeoman. You can repeat this process if you want to reuse in a new VS Workspsace
+   `yo website-starter`
 
 ### Steps in creating a yeoman generator
 
@@ -37,9 +39,9 @@ This project is about learning how to build an npm package file using website st
 
 5. In **index.js**, import yeoman generator and write script files where you need to copy files that are shown in the supposedly generated package file from templates folder. Credits to _Coder Coder_'s for the script.
 
-6. Test the package locally by running this `npm link` and expect a confirmation message that a package is added
+6. Test the package locally by running this `npm link` and expect a confirmation message that a package is added.
 
-> Note: Best to test it in a new blank VS Code Workspace by running an `npm init` then `npm install` and lastly `npm link "name-of-your-generator-folder"` and you will see the package installed.
+   > Note: Best to test it in a new blank VS Code Workspace by running an `npm init` then `npm install` and lastly `npm link "name-of-your-generator-folder"` and expect to see the package installed.
 
 7. Login to your npm account. Sign up [here](https://www.npmjs.com/signup) if you don't have one yet.
    > Note: email address used in sign up is public knowledge.
@@ -66,7 +68,7 @@ It somehow resolved by doing the following:
 
 ### Update package files
 
-1. Push and commit files to repository
+1. Push and commit files to github repository
 
 2. Update yeoman version number in _package.json_
    `npm version 1.1.1`
