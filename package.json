@@ -1,6 +1,6 @@
 {
   "name": "generator-website-starter",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "A website generator using semantic markup, SASS and Gulp",
   "main": "index.js",
   "scripts": {

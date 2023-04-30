@@ -2,7 +2,18 @@
 
 This project is about learning how to build an npm package file using website starter files created in my [previous repo](https://github.com/francesjgonzales/website-starter) and generate it using [yeoman](https://yeoman.io/) tool
 
-### Steps
+### How to use generator-website-starter
+
+1. Install **yeoman** globally
+   `npm install -g yo`
+
+2. Install your **created generator** globally
+   `npm install -g generator-name`
+
+3. Install the package file using Yeoman
+   `yo generator-name`
+
+### Steps in creating a yeoman generator
 
 1. Create a new repository in github
 
@@ -64,17 +75,6 @@ It somehow resolved by doing the following:
    `npm publish`
 
 4. Check udpated files in your npm account
-
-### Run Yeoman
-
-1. Install **yeoman** globally
-   `npm install -g yo`
-
-2. Install your **created generator** globally
-   `npm install -g generator-name`
-
-3. Install the package file using Yeoman
-   `yo generator-name`
 
 ### Credits
 
