@@ -1,7 +1,7 @@
 {
   "name": "generator-website-starter",
-  "version": "1.0.8",
-  "description": "A website generator using semantic markup, SASS and Gulp",
+  "version": "1.0.9",
+  "description": "A website generator using semantic markup, SASS, Gulp, Imagemin and Browser-sync",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -16,6 +16,7 @@
     "website-starter",
     "gulp",
     "gulp-imagemin",
+    "gulp-browser-sync",
     "web-design-starter",
     "SASS",
     "beginner-website-starter",

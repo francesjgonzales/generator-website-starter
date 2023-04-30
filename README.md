@@ -15,7 +15,20 @@ If you want to use this generator, below are the steps.
 3. Install the package file using Yeoman. You can repeat this process if you want to reuse in a new VS Workspsace
    `yo website-starter`
 
+4. Run `gulp` in your project directory terminal
+
+   If error occur its possible that gulp is not installed in your global yet. Below are steps to install
+
+   - Run gulp command utility
+     `npm install --global gulp-cli`
+   - Install Gulp in your project directory
+     `npm install --save-dev gulp`
+
+   > For more details on how the generated files are created, please read this [repository](https://github.com/francesjgonzales/website-starter)
+
 ### Steps in creating a yeoman generator
+
+If you want to learn how I created this generator, below are the steps
 
 1. Create a new repository in github
 
